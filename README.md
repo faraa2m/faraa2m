@@ -8,8 +8,8 @@ The through-line is simple: model choice should be an engineering decision with 
 
 | Project | What it does | Role in the stack |
 |---|---|---|
-| [`tokenometer`](https://github.com/faraa2m/tokenometer) | Multi-provider token counts, USD cost, latency benchmarks, CI cost guardrails, VS Code/Cursor extension, and Claude Code skill. Live at [tokenometer.vercel.app](https://tokenometer.vercel.app). | Measure |
-| [`llm-tokens-atlas`](https://github.com/faraa2m/llm-tokens-atlas) | Open benchmark for offline-vs-empirical tokenizer calibration across providers and prompt formats. | Calibrate |
+| [`tokenometer`](https://github.com/faraa2m/tokenometer) | Multi-provider token counts, USD cost, latency benchmarks, CI cost guardrails, VS Code/Cursor extension, and Claude Code skill. Live at [tokenometer.dev](https://tokenometer.dev). | Measure |
+| [`llm-tokens-atlas`](https://github.com/faraa2m/llm-tokens-atlas) | Open benchmark for offline-vs-empirical tokenizer calibration across providers and prompt formats. Dataset on [Hugging Face](https://huggingface.co/datasets/faraa2m/llm-tokens-atlas). | Calibrate |
 | [`promptc`](https://github.com/faraa2m/promptc) | Deterministic, LM-free prompt compiler with behavior-preserving cost-reduction passes. | Reduce |
 | [`routerlab`](https://github.com/faraa2m/routerlab) | Cost-quality routing for LLM APIs with reproducible Pareto frontiers per task class. | Route |
 | [`ast-ai-model-router`](https://github.com/faraa2m/ast-ai-model-router) | AST-aware Claude/Codex wrapper that picks models from task and code complexity signals. | Apply routing to coding agents |
@@ -48,10 +48,11 @@ The through-line is simple: model choice should be an engineering decision with 
 
 ## Writing
 
-- [Hackernoon — Faraazuddin Mohammed](https://hackernoon.com/u/faraazm)
+- [HackerNoon — Faraazuddin Mohammed](https://hackernoon.com/u/faraa2m)
 
 ## Elsewhere
 
 - [GitHub @faraa2m](https://github.com/faraa2m)
 - [LinkedIn](https://www.linkedin.com/in/faraazuddin-mohammed/)
-- 
+- [HackerNoon](https://hackernoon.com/u/faraa2m)
+- [Tokenometer](https://tokenometer.dev)
