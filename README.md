@@ -4,6 +4,14 @@ I build open-source tools for token economics: measuring LLM cost accurately, re
 
 The through-line is simple: model choice should be an engineering decision with evidence, not a default dropdown.
 
+## Links
+
+- [Portfolio / Resume](https://faraazuddin-mohammed.com)
+- [Project Showcase](https://faraazuddin-mohammed.dev)
+- [Domain Chooser](https://faraazuddin-mohammed.io)
+- [LinkedIn](https://www.linkedin.com/in/faraazuddin-mohammed/)
+- [HackerNoon](https://hackernoon.com/u/faraa2m)
+
 ## Token Economics Stack
 
 | Project | What it does | Role in the stack |
@@ -57,6 +65,8 @@ The through-line is simple: model choice should be an engineering decision with 
 ## Elsewhere
 
 - [GitHub @faraa2m](https://github.com/faraa2m)
+- [Portfolio / Resume](https://faraazuddin-mohammed.com)
+- [Project Showcase](https://faraazuddin-mohammed.dev)
 - [LinkedIn](https://www.linkedin.com/in/faraazuddin-mohammed/)
 - [HackerNoon](https://hackernoon.com/u/faraa2m)
 - [Tokenometer](https://tokenometer.dev)
