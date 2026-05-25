@@ -13,7 +13,7 @@ The through-line is simple: model choice should be an engineering decision with 
 | [`promptc`](https://github.com/faraa2m/promptc) | Deterministic, LM-free prompt compiler with behavior-preserving cost-reduction passes. | Reduce |
 | [`routerlab`](https://github.com/faraa2m/routerlab) | Cost-quality routing for LLM APIs with reproducible Pareto frontiers per task class. | Route |
 | [`ast-ai-model-router`](https://github.com/faraa2m/ast-ai-model-router) | AST-aware Claude/Codex wrapper that picks models from task and code complexity signals. | Apply routing to coding agents |
-| [`amazonclone`](https://github.com/faraa2m/amazonclone) | TypeScript Express commerce API starter with OpenAPI docs, tests, Docker, and LLM cost-guardrail examples. | Demonstrate |
+| [`commerce-api-starter`](https://github.com/faraa2m/commerce-api-starter) | TypeScript Express commerce API starter with OpenAPI docs, tests, Docker, and LLM cost-guardrail examples. | Demonstrate |
 
 ## Start Here
 
@@ -27,7 +27,7 @@ The through-line is simple: model choice should be an engineering decision with 
   decision rather than a default model setting.
 - Use **AST AI Model Router** if you want that routing idea applied to local
   Claude Code / Codex workflows.
-- Use **Amazon Clone** if you want a compact TypeScript API starter that shows
+- Use **Commerce API Starter** if you want a compact TypeScript API starter that shows
   tests, OpenAPI-style docs, Docker, and Tokenometer cost-guardrail examples in
   a normal application repo.
 
