@@ -21,6 +21,7 @@ The through-line is simple: model choice should be an engineering decision with 
 | [`promptc`](https://github.com/faraa2m/promptc) | Deterministic, LM-free prompt compiler with behavior-preserving cost-reduction passes. | Reduce |
 | [`routerlab`](https://github.com/faraa2m/routerlab) | Cost-quality routing for LLM APIs with reproducible Pareto frontiers per task class. | Route |
 | [`ast-ai-model-router`](https://github.com/faraa2m/ast-ai-model-router) | AST-aware Claude/Codex wrapper that picks models from task and code complexity signals. | Apply routing to coding agents |
+| [`suture`](https://github.com/faraa2m/suture) | Filesystem-first `.ai/` scaffold for local coding-agent orchestration across Claude Code, Codex, Gemini, Cursor, Windsurf, and similar harnesses. | Orchestrate local agents |
 | [`commerce-api-starter`](https://github.com/faraa2m/commerce-api-starter) | TypeScript Express commerce API starter with OpenAPI docs, tests, Docker, and LLM cost-guardrail examples. | Demonstrate |
 
 ## Start Here
@@ -35,6 +36,9 @@ The through-line is simple: model choice should be an engineering decision with 
   decision rather than a default model setting.
 - Use **AST AI Model Router** if you want that routing idea applied to local
   Claude Code / Codex workflows.
+- Use **Suture** if you want a drop-in `.ai/` control plane that keeps router
+  policy, memory, hooks, model-role config, and external skill mounts in plain
+  files.
 - Use **Commerce API Starter** if you want a compact TypeScript API starter that shows
   tests, OpenAPI-style docs, Docker, and Tokenometer cost-guardrail examples in
   a normal application repo.
@@ -50,6 +54,8 @@ The through-line is simple: model choice should be an engineering decision with 
 - Connecting local coding agents to the same economics: use smaller/faster
   models for simple work, stronger models for architecture and high-risk
   changes.
+- Turning local agent orchestration into filesystem state instead of chat
+  transcript bloat.
 
 ## Research Threads
 
@@ -57,6 +63,8 @@ The through-line is simple: model choice should be an engineering decision with 
 - Prompt compilers: deterministic transformations that reduce cost without asking another model to rewrite the prompt.
 - Cost-quality frontiers: reproducible routing policies that choose models rationally per task class.
 - Agent model selection: AST and repo signals that predict when a coding task needs stronger reasoning.
+- Filesystem-first agent orchestration: Markdown memory, shell hooks, and
+  cross-harness skill mounts as a local control plane.
 
 ## Writing
 
@@ -70,3 +78,4 @@ The through-line is simple: model choice should be an engineering decision with 
 - [LinkedIn](https://www.linkedin.com/in/faraazuddin-mohammed/)
 - [HackerNoon](https://hackernoon.com/u/faraa2m)
 - [Tokenometer](https://tokenometer.dev)
+- [Suture](https://github.com/faraa2m/suture)
