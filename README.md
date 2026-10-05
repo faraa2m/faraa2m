@@ -22,6 +22,7 @@ The through-line is simple: model choice should be an engineering decision with 
 | [`routerlab`](https://github.com/faraa2m/routerlab) | Cost-quality routing for LLM APIs with reproducible Pareto frontiers per task class. | Route |
 | [`ast-ai-model-router`](https://github.com/faraa2m/ast-ai-model-router) | AST-aware Claude/Codex wrapper that picks models from task and code complexity signals. | Apply routing to coding agents |
 | [`suture`](https://github.com/faraa2m/suture) | Filesystem-first `.ai/` scaffold for local coding-agent orchestration across Claude Code, Codex, Gemini, Cursor, Windsurf, and similar harnesses. | Orchestrate local agents |
+| [`farm`](https://github.com/faraa2m/farm) | One skill installed into Claude Code, Codex, and Grok CLI: whichever agent you are talking to triages the request, briefs the other two headlessly, and verifies what comes back. | Delegate across agents |
 | [`commerce-api-starter`](https://github.com/faraa2m/commerce-api-starter) | TypeScript Express commerce API starter with OpenAPI docs, tests, Docker, and LLM cost-guardrail examples. | Demonstrate |
 
 ## Start Here
@@ -39,6 +40,9 @@ The through-line is simple: model choice should be an engineering decision with 
 - Use **Suture** if you want a drop-in `.ai/` control plane that keeps router
   policy, memory, hooks, model-role config, and external skill mounts in plain
   files.
+- Use **Farm** if you run more than one local coding agent and want the one
+  you are talking to decide what to hand off to the others, in parallel, with
+  results on disk instead of copy-paste between terminals.
 - Use **Commerce API Starter** if you want a compact TypeScript API starter that shows
   tests, OpenAPI-style docs, Docker, and Tokenometer cost-guardrail examples in
   a normal application repo.
@@ -56,6 +60,9 @@ The through-line is simple: model choice should be an engineering decision with 
   changes.
 - Turning local agent orchestration into filesystem state instead of chat
   transcript bloat.
+- Letting heterogeneous coding agents delegate to each other: a shared triage
+  protocol for what is worth farming out, and headless dispatch to whichever
+  harness is cheapest and best suited for the slice.
 
 ## Research Threads
 
